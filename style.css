@@ -31,3 +31,98 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #25133d;
+}
+
+.superappka a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hlavicka {
+    background-image: url(images/pozadi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.nazev {
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 60px;
+    color: white;
+    font-weight: normal;
+}
+
+.telefon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hlavicka p {
+    font-size: 30px;
+    color: white;
+    padding: 0 30px 20px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.tlacitko1,
+.tlacitko2 {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.akce a {
+    text-decoration: none;
+    color: white;
+}
+
+.prehled {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+.prehled img {
+    height: 50px;  
+}
+
+.prehled h2 {
+    font-size: 16px;
+    color: #48418e;
+}
+
+.cestuj,
+.chatuj,
+.zazij {
+    text-align: center;
+}
+
+.paticka {
+    background-color:#48418e;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 1px 0;
+}
