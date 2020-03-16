@@ -48,6 +48,12 @@ body {
     color: #25133d;
 }
 
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    font-weight: bold;
+}
+
 .superappka a {
     text-transform: uppercase;
     font-weight: bold;
@@ -58,25 +64,31 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.telefon {
+    flex: 1 1 40%;
+    padding-top: 30px;
+    align-self: flex-end;
+}
+
+.leva {
+    flex: 1 1 55%;
 }
 
 .nazev {
     margin: 0;
     padding: 20px 30px;
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     font-weight: normal;
 }
 
-.telefon {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .hlavicka p {
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     padding: 0 30px 20px;
     margin: 0;
@@ -88,6 +100,7 @@ body {
     display: inline-block;
     border: 1px solid white;
     border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     margin-left: 30px;
     margin-bottom: 20px;
@@ -96,11 +109,18 @@ body {
 .akce a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+}
+
+.akce a:hover,
+.akce a:focus,
+.akce a:active {
+    background-color: #25133d;
 }
 
 .prehled {
     display: flex;
-    padding: 20px 30px;
+    padding: 30px 30px;
     justify-content: center;
 }
 
